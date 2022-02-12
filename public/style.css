@@ -1,0 +1,209 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    background-color: #ffbd59;
+    padding: 0;
+    margin: 0;
+}
+.logo img{
+width: auto;
+height: 125px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    align-items: center;
+}
+.nav{
+    text-decoration: none;
+    color: #778899;
+    font-size: 25px;
+}
+
+.header{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.nav2{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.nav3{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+
+.nav3:hover{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+
+.divide{
+    color: white;
+    font-size: 25px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    color: white;
+}
+.fieldname{
+    font-size: 25px;
+    color: white;
+}
+
+form{
+    background-color: black;
+    border-radius: 10px;
+    border: black solid 1px;
+    width: 325px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+input{
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.reg{
+    color: white;
+    justify-content: center;
+}
+.regtable{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+#shop_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    margin: 1rem;
+     
+}
+
+.product img{
+    max-height: 150px;
+}
+
+.product {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+    border: black solid 1px;
+}
+
+.product a {
+    text-decoration: none;
+    font-size: 20px;
+     color: black;
+}
+
+.header nav span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+nav p {
+    margin: 0;
+}
+
+.price{
+    margin: 0;
+}
+
+#profile{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.account{
+    color: white;
+    font-size: 25px;
+}
+
+#cart_grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin: 1rem;
+    font-family: 'Nunito', sans-serif;
+     
+}
+
+.cart_product {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100%;
+    background-color: white;
+}
+
+.regbutton{
+    font-family: 'Nunito', sans-serif;
+}
+
+#cartWindow{
+    text-align: center;
+display: flex;
+flex-direction: column;
+position: fixed;
+top: 150px;
+right: 5px;
+background-color: #fff;
+border-radius: 10px;
+width: 350px;
+height: 200px;
+overflow-y:scroll;
+scrollbar-width: none;
+border: solid 1px black;
+
+}
+
+#cartWindow h1{
+    color: black;
+}
+
+.productimg{
+    max-height: 75px;
+}
+
+::-webkit-scrollbar {
+    width: 7px; /* ширина для вертикального скролла */
+    background-color: white;
+    border-radius: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: lightgrey;
+    border-radius: 9em;
+}
+
